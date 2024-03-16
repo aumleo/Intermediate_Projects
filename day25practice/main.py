@@ -23,7 +23,7 @@ import pandas
 data = pandas.read_csv('weather_data.csv')
 
 #convert data to a list
-temp = data['temp'].to_list()
+temp = data['temp'].to_list() 
 
 #dataseries.max() similarly can do other math functions
 print(data['temp'].max())
